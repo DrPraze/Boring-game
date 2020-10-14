@@ -1,4 +1,5 @@
 import pygame, sys
+from time import sleep
 from random import randint
 
 #========== let the boredom begin! ==========
@@ -64,4 +65,5 @@ class Bore:
             
 if __name__=='__main__':
     AI = Bore()
+    sleep(4)
     AI.main()
